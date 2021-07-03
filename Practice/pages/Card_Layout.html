@@ -1,0 +1,85 @@
+<!doctype html>
+<title>Cards</title>
+<style>
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .card {
+    flex: 0 0 150px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+    header{
+    font-weight: bold;
+    text-shadow: whitesmoke;
+    text-align: center;
+    background: skyblue;
+    text-align: center;
+    font-size: 50px;
+    height: 10vh;
+  }
+  footer{
+    font-weight: bold;
+    text-align: center;
+    background: skyblue;
+    text-align: center;
+    font-size: 15px;
+    height: 10vh;
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
+</style>
+<header>Cards Layout</header>
+
+<main class="cards">
+  <article class="card">
+    <img src="../assets/html.png">
+    <div class="text">
+        <h3>HTML</h3>
+        <p>Hyper Text MarkUp Language.</p>
+        <button>Sign Up</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/css.jpg">
+    <div class="text">
+      <h3>CSS</h3>
+      <p>Cascading Style Sheets</p>
+      <button>Sign Up</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/js.jpg">
+    <div class="text">
+      <h3>Java Script</h3>
+      <p>Scripting Language</p>
+      <button>Explore</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/ai.jpg">
+    <div class="text">
+      <h3>AI</h3>
+      <p>Artificial Intelligence</p>
+      <button>Sign In</button>
+    </div>
+  </article>
+</main>
+<footer>© 2021 Complit, Inc. All rights reserved.</footer>
